@@ -1,0 +1,43 @@
+.admin-form 
+{
+    max-height: 200px;
+    height: 150px;
+    width: 200px;
+    /*background: blue;*/
+    min-width: 100px;
+    direction: inherit;
+    padding : 3px;
+}
+
+.admin-input
+{
+    height: 20%;
+    width: 100px;
+    /*background: red;*/
+}
+
+.admin-input:nth-child(2n){
+    position : relative;
+    left : 200px;
+    top: -30px;
+}
+
+.admin-input:nth-child(4n)+div{
+    position : relative;
+    left : 200px;
+    top: -100px;
+}
+
+.admin-button
+{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
